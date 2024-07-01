@@ -148,7 +148,7 @@ df = pd.DataFrame(data)
 
 
 ### Plotting the Data
-python
+```python
 plt.figure(figsize=(15, 10))
 plt.bar(df['Constituency'], range(len(df['Constituency'])), color='skyblue')
 plt.xlabel('Constituency')
